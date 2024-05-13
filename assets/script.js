@@ -24,9 +24,6 @@ const bannerImage = document.querySelector(".banner-img");
 const text = document.querySelector("#banner p");
 const dots = document.querySelector(".dots");
 const uptadeData = () => {
-  console.log(index);
-
-  console.log(slides[index]);
   bannerImage.src = "./assets/images/slideshow/" + slides[index].image;
   text.innerHTML = slides[index].tagLine;
   generateDots()
